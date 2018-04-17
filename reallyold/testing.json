@@ -1,0 +1,52 @@
+{
+  "docsList": [
+    "Mild-mannered high school chemistry teacher Walter White thinks his life can't get much worse.",
+    "His salary barely makes ends meet, a situation not likely to improve once his pregnant wife gives birth, and their teenage son is battling cerebral palsy.",
+   "But Walter is dumbstruck when he learns he has terminal cancer.",
+    "Realizing that his illness probably will ruin his family financially, Walter makes a desperate bid to earn as much money as he can in the time he has left by turning an old RV into a meth lab on wheels.",
+"Walter Walt White (Bryan Cranston) leads a mundane, timid life as a high school chemistry teacher whose students are uninterested and disrespectful.",
+"The job pays so poorly that Walt needs to work at a car wash for additional income, making him the subject of ridicule for his students.",
+"He lives in Albuquerque, New Mexico, with his pregnant wife, Skyler (Anna Gunn), and his high school aged son, Walter Jr. (RJ Mitte), who has cerebral palsy. Walter's life is further complicated when, while working at the car wash on the day after his 50th birthday, he collapses.",
+"At the hospital, he is diagnosed with stage-three terminal lung cancer.",
+"Hank Schrader (Dean Norris), his DEA Agent brother-in-law, offers Walt the opportunity to go on a ride-along to bust a meth lab.",
+"While at the scene, Walt notices former student Jesse Pinkman (Aaron Paul) fleeing the scene.",
+"Walt uses student records to trace Jesse down and blackmails him into letting him join the drug business.",
+"Walt wants to make drug money to provide for his family after his death from the cancer."
+  ],
+    "customSettings": {
+    "numTopics": 4,
+    "numIterations": 1000,
+    "numWords": 4
+  }
+}
+
+
+RESULT:
+
+
+[
+    {
+        "walter": 4,
+        "life": 3,
+        "school": 3,
+        "jesse": 2
+    },
+    {
+        "cancer": 3,
+        "walt": 3,
+        "provide": 1,
+        "death": 1
+    },
+    {
+        "ride-along": 1,
+        "brother-in-law": 1,
+        "bust": 1,
+        "offers": 1
+    },
+    {
+        "drug": 1,
+        "diagnosed": 1,
+        "work": 1,
+        "blackmails": 1
+    }
+]
