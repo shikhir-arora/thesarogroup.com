@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/saro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thesarogroup.com
+  * I am saro (https://keybase.io/saro) on keybase.
+  * I have a public key with fingerprint BAB8 39E0 BC39 8D28 26AF  531C 8823 A4F9 EFB8 B6E5
+
+To do so, I am signing this object:
+
+{
+    "body": {
+	"key": {
+            "eldest_kid": "01014a905505f4e8bdb9d8d462b298ba4e440c34a0772debff074617f54590fbb7fa0a",
+            "fingerprint": "bab839e0bc398d2826af531c8823a4f9efb8b6e5",
+            "host": "keybase.io",
+            "key_id": "8823a4f9efb8b6e5",
+            "kid": "01014a905505f4e8bdb9d8d462b298ba4e440c34a0772debff074617f54590fbb7fa0a",
+            "uid": "6358ac1bcea4ddabd299003c75c92e19",
+            "username": "saro"
+        },
+	"service": {
+            "hostname": "thesarogroup.com",
+            "protocol": "https:"
+        },
+	"type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1487408859,
+    "expire_in": 157680000,
+    "prev": "21e6e97ab22ee37f22ee6d4ec29832560e0bdd65752dd63db6026f54202b410f",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMM7AnicrVJtUFRVGIYNWEEQQRImWtguMmMJdL8/FgcqwmILEaesGbD1nHvPXW7g
+3uXuLuAgAwwmMTA5NYNAOE4/YmJFvqYinLJCl0bRAexDahTITCSjyPwImsLuZexf
+Pzt/3jnv+zzPed73vIGoB4Iigl9PeXd5cXjoWvC5kXZf0Mvd6y5VY1CV9mG2aqwU
+rQZUJiGP11GqSJgNwwmcoIGAMwzOyDTioQQFiZdoloSkwENAI5rGRYoGOMeREoKy
+jHM0S3AyQzMCLkPIyQAHWBomKy4n0tya4vLqshBAnhIQDkVK4CWSJ1kgMxQh8jxJ
+AVoWkAx5yCJGJ5aoHoOhm4PAgzIUVc/pF8eqvf/A/8++fatyLMXwQCSgiAAtSQBK
+pCDgOCVyjCiQiBAMoAdpLrAX6WgP0FSsJg3TMxWKiIyhGl3cr3pLkAFwaqrPnSGq
+e3WuW1O9qqiW6dUSr9ftsRls7z63Aa9E0HFfyAEVl6TPUWdUIM2jqC7MRuhI0asY
+ygTNczTO84yQhqEqt6Ihh2IgGI7lcf0Y76AKXZIkEIsEDkCSRIjiZCOwEo1EfTQU
+ybC4/jGSxDIcQ+qBkiCLk6w+GRInIU3gMma0Vu5SdW1e9wmcRs+K0wW8Pg1hNadG
+ikOCgiOCwkJNxoIFRYSv/3ftLB3RK5xvjR3OtuXcefZxpzY/s6z87OzNhd8dtwS+
+bX764wGQT7vWzlFU0/umSX//UteBju/bl4Cp0x/enTV6+Me/fjvhHXkmqaq+0X66
+8vLGo2ds9Z0jpXTPYEPd9e2FqH5HbVT6RxOX47v21CZ/Jvq3mxpiMt+IFu9NyXKv
+evVkDSqm1vWMPf9YjLBNiOQHLeUT9kGsFVgWpFQi3JQ/5VpZKYt3t3VMjsb9cFxe
+s/mR8/lzzeXpzUONXxVk9w41nc6+3VT4XHfCxScCV/tsTQmxtYlm+081Z8yhOfvb
+l/h+eLPlrYJo8EVk2R1YyH/+0t/JWw/5bTNTRX1FWRvsVmfi0MKhs10pF1sIwjL1
+0PlHc/LUyJr0PYvrkw7uvk1vOdL/5NeBuCPxbc6i/JYPT9prJxKmzXGza+eXUjH+
+1dfG6/jU9oY+S8GF5WF2p3Ars+KXxE9D8spH6jcdyLxA+k+907sJk0qKLwWuV+bN
+W69UCg8ug+qOmd+bz1bFbgib7NyV+3ZUpH/33ZDiG++N/wrjtL5jswe5utEYrTfj
+mpnCUmLvnSuAbYvJOyulY+NZ1oZcU4V89E/zwNbO6cCJhaIbcGVz3a7GmGH+yq2x
+Vw6nb2G3zThiWz/oeWrjdNQn8eX4C8MpL0pxvqQ3Q6Mf/uNL693sMHP1/sEdN8dK
+ra1zqXMDyd/8A0suuWQ=
+=pFhJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/saro
+
+==================================================================
+
