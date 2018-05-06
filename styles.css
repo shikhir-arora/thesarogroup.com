@@ -1,132 +1,129 @@
-
 html {
-  border-top: 16px #000 solid;
-  background: url("bg.png") top center;
+	border-top: 16px solid #000;
+	background: url("bg.png") top center;
 }
 
 body {
-  margin: 80px auto 0 auto;
-  padding: 0 auto 0 auto;
-  max-width: 800px;
-  width: 100%;
-  font-size: 16px;
-  font-family: "acumin-pro",sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  text-align: center;
+	margin: 80px auto 0 auto;
+	max-width: 800px;
+	width: 100%;
+	font-size: 16px;
+	font-family: "acumin-pro", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	text-align: center;
 }
 
 h1 {
-  font-size: 28px;
-  font-style: normal;
-  margin-top: 32px;
-  font-weight: 500;
+	font-size: 28px;
+	font-style: normal;
+	margin-top: 32px;
+	font-weight: 500;
 }
 
 p#description {
-  font-weight: 400;
-  margin-bottom: 64px;
+	font-weight: 400;
+	margin-bottom: 64px;
 }
 
 .container-one {
-  margin: 0 auto 35px auto;
-  width: 80%;
-  background: #363D3D;
-  font: inherit;
-  color: #FFF;
-  line-height: 150%;
-  font-weight: 200;
-  padding: 1.2em;
-  text-align: left;
+	margin: 0 auto 35px auto;
+	width: 80%;
+	background: #363D3D;
+	font: inherit;
+	color: #FFF;
+	line-height: 150%;
+	font-weight: 200;
+	padding: 1.2em;
+	text-align: left;
 }
 
 .container-two {
-  margin: 0 auto 35px auto;
-  width: 85%;
-  background: #1A2C45;
-  font: inherit;
-  color: #FFF;
-  line-height: 150%;
-  font-weight: 200;
-  padding: 1.2em;
-  text-align: left;
+	margin: 0 auto 35px auto;
+	width: 85%;
+	background: #1A2C45;
+	font: inherit;
+	color: #FFF;
+	line-height: 150%;
+	font-weight: 200;
+	padding: 1.2em;
+	text-align: left;
 }
 
 .container-three {
-  margin: 0 auto 35px auto;
-  width: 85%;
-  background: #296B57;
-  font: inherit;
-  color: #FFF;
-  line-height: 150%;
-  font-weight: 200;
-  padding: 1.2em;
-  text-align: left;
+	margin: 0 auto 35px auto;
+	width: 85%;
+	background: #296B57;
+	font: inherit;
+	color: #FFF;
+	line-height: 150%;
+	font-weight: 200;
+	padding: 1.2em;
+	text-align: left;
 }
 
 .container-four {
-  margin: 0 auto 35px auto;
-  width: 85%;
-  background: #40180B;
-  font: inherit;
-  color: #FFF;
-  line-height: 150%;
-  font-weight: 200;
-  padding: 1.2em;
-  text-align: left;
+	margin: 0 auto 35px auto;
+	width: 85%;
+	background: #40180B;
+	font: inherit;
+	color: #FFF;
+	line-height: 150%;
+	font-weight: 200;
+	padding: 1.2em;
+	text-align: left;
 }
 
 .contactpre {
-  margin: 0 auto 35px auto;
-  width: 70%;
-  background: #2F0D40;
-  font: inherit;
-  color: #FFF;
-  line-height: 150%;
-  font-weight: 200;
-  padding: 1.2em;
-  text-align: left;
+	margin: 0 auto 35px auto;
+	width: 70%;
+	background: #2F0D40;
+	font: inherit;
+	color: #FFF;
+	line-height: 150%;
+	font-weight: 200;
+	padding: 1.2em;
+	text-align: left;
 }
 
 address {
-  margin: 0 auto 20px auto;
-  padding: 1.2em;
-  background: #121C29;
-  color: #FFF;
-  font: inherit;
-  text-align: right;
-  line-height: 150%;
-  width: 90%;
-  font-weight: 200;
+	margin: 0 auto 20px auto;
+	padding: 1.2em;
+	background: #121C29;
+	color: #FFF;
+	font: inherit;
+	text-align: right;
+	line-height: 150%;
+	width: 90%;
+	font-weight: 200;
 }
 
 span.type {
-  float: left;
+	float: left;
 }
 
-address > span > em {
-  color: #CCC;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 0.9em;
+address>span>em {
+	color: #CCC;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 0.9em;
 }
 
-address > a {
-  color: inherit;
-  text-decoration: none;
+address>a {
+	color: inherit;
+	text-decoration: none;
 }
 
-address > a:hover {
-  color: #AAA;
+address>a:hover {
+	color: #AAA;
 }
 
 p#copyright {
-  margin: 48px 0 32px 0;
-  font-weight: 400;
-  font-size: 15px;
+	margin: 48px 0 32px 0;
+	font-weight: 400;
+	font-size: 15px;
 }
 
 .seal {
-  text-align: center;
-
+	text-align: center;
 }
