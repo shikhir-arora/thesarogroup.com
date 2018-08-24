@@ -3,7 +3,7 @@ for = "/*"
 [headers.values]
 Access-Control-Allow-Origin = "*"
 Cache-Control = "public, max-age=0, must-revalidate"
-Content-Security-Policy = "base-uri 'self'; default-src 'self'; style-src 'self' 'unsafe-inline' use.typekit.net; script-src 'self' use.typekit.net; font-src 'self' use.typekit.net fonts.typekit.net; img-src 'self' p.typekit.net; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests; report-uri https://thesarogroup.report-uri.com/r/d/csp/enforce"
+Content-Security-Policy = "base-uri 'self'; default-src 'self'; style-src 'self' 'unsafe-inline' use.typekit.net; script-src 'self' use.typekit.net; font-src 'self' use.typekit.net fonts.typekit.net; img-src 'self' p.typekit.net; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests; report-uri https://thesarogroup.report-uri.com/r/d/csp/enforce; report-to groupname"
 Expect-CT = "enforce, max-age=604800, report-uri=\"http://thesarogroup.report-uri.com/r/d/ct/reportOnly\""
 Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
 Referrer-Policy = "strict-origin-when-cross-origin"
