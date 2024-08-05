@@ -2,9 +2,8 @@
 for = "/*"
 [headers.values]
 Access-Control-Allow-Origin = "*"
-# Content-Security-Policy = "base-uri 'self'; default-src 'self'; style-src 'self' 'unsafe-inline' use.typekit.net cdn.giesela.app; script-src 'self' use.typekit.net cdn.giesela.app; font-src 'self' data://* use.typekit.net fonts.typekit.net; img-src 'self' p.typekit.net cdn.giesela.app; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests; report-uri https://thesarogroup.report-uri.com/r/d/csp/enforce; report-to groupname"
-Content-Security-Policy = "base-uri 'self'; default-src 'self'; script-src 'self' 'report-sample' https://cdn.giesela.app/saro/asynctk.js https://use.typekit.net/fcg5qzu.js; style-src 'self' 'report-sample' https://cdn.giesela.app; img-src 'self' https://cdn.giesela.app https://p.typekit.net; font-src 'self' https://use.typekit.net; connect-src 'self'; media-src 'self'; object-src 'none'; frame-src 'self'; worker-src 'none'; base-uri 'self'; manifest-src 'self'; report-uri https://thesarogroup.report-uri.com/r/d/csp/enforce; report-to groupname"
-Expect-CT = "enforce, max-age=604800, report-uri=\"http://thesarogroup.report-uri.com/r/d/ct/reportOnly\""
+Content-Security-Policy = "base-uri 'self'; default-src 'self'; script-src 'self' 'report-sample' https://use.typekit.net/fcg5qzu.js; style-src 'self' 'unsafe-inline' 'report-sample' https://use.typekit.net; img-src 'self' https://p.typekit.net; font-src 'self' https://use.typekit.net; connect-src 'self'; media-src 'self'; object-src 'none'; frame-src 'self'; worker-src 'none'; manifest-src 'self'; upgrade-insecure-requests; report-uri https://thesarogroup.report-uri.com/r/d/csp/enforce; report-to groupname"
+Expect-CT = "enforce, max-age=604800, report-uri=\"https://thesarogroup.report-uri.com/r/d/ct/reportOnly\""
 Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()"
 Referrer-Policy = "strict-origin-when-cross-origin"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"

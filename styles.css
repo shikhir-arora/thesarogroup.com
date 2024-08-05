@@ -1,129 +1,144 @@
+:root {
+    --container-one-bg: #363d3d;
+    --container-two-bg: #1a2c45;
+    --container-three-bg: #296b57;
+    --container-four-bg: #40180b;
+    --contactpre-bg: #2f0d40;
+    --address-bg: #121c29;
+    --text-color: #fff;
+    --secondary-text-color: #ccc;
+    --hover-color: #aaa;
+    --header-footer-text-color: #000;
+}
+
 html {
-	border-top: 16px solid #000;
-	background: url("bg.png") top center;
+    border-top: 16px solid var(--header-footer-text-color);
+    background: url("https://thesarogroup.com/bg.png") top center repeat;
 }
 
 body {
-	margin: 80px auto 0 auto;
-	max-width: 800px;
-	width: 100%;
-	font-size: 16px;
-	font-family: "acumin-pro", sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	text-align: center;
+    margin: 80px auto 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    font-size: 16px;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    background-color: transparent;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 32px;
+    color: var(--header-footer-text-color);
+}
+
+header img {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
 }
 
 h1 {
-	font-size: 28px;
-	font-style: normal;
-	margin-top: 32px;
-	font-weight: 500;
+    font-size: 28px;
+    margin-top: 16px;
+    font-weight: 500;
 }
 
 p#description {
-	font-weight: 400;
-	margin-bottom: 64px;
+    font-weight: 400;
+    margin-bottom: 64px;
+    color: var(--header-footer-text-color);
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-one,
+.container-two,
+.container-three,
+.container-four,
+.contactpre {
+    margin: 0 auto 35px auto;
+    padding: 1.2em;
+    color: var(--text-color);
+    line-height: 1.5;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    background-color: transparent;
 }
 
 .container-one {
-	margin: 0 auto 35px auto;
-	width: 80%;
-	background: #363D3D;
-	font: inherit;
-	color: #FFF;
-	line-height: 150%;
-	font-weight: 200;
-	padding: 1.2em;
-	text-align: left;
+    background-color: var(--container-one-bg);
 }
 
 .container-two {
-	margin: 0 auto 35px auto;
-	width: 85%;
-	background: #1A2C45;
-	font: inherit;
-	color: #FFF;
-	line-height: 150%;
-	font-weight: 200;
-	padding: 1.2em;
-	text-align: left;
+    background-color: var(--container-two-bg);
 }
 
 .container-three {
-	margin: 0 auto 35px auto;
-	width: 85%;
-	background: #296B57;
-	font: inherit;
-	color: #FFF;
-	line-height: 150%;
-	font-weight: 200;
-	padding: 1.2em;
-	text-align: left;
+    background-color: var(--container-three-bg);
 }
 
 .container-four {
-	margin: 0 auto 35px auto;
-	width: 85%;
-	background: #40180B;
-	font: inherit;
-	color: #FFF;
-	line-height: 150%;
-	font-weight: 200;
-	padding: 1.2em;
-	text-align: left;
+    background-color: var(--container-four-bg);
 }
 
 .contactpre {
-	margin: 0 auto 35px auto;
-	width: 70%;
-	background: #2F0D40;
-	font: inherit;
-	color: #FFF;
-	line-height: 150%;
-	font-weight: 200;
-	padding: 1.2em;
-	text-align: left;
+    background-color: var(--contactpre-bg);
 }
 
 address {
-	margin: 0 auto 20px auto;
-	padding: 1.2em;
-	background: #121C29;
-	color: #FFF;
-	font: inherit;
-	text-align: right;
-	line-height: 150%;
-	width: 90%;
-	font-weight: 200;
+    margin: 0 auto 20px auto;
+    padding: 1.2em;
+    background: var(--address-bg);
+    color: var(--text-color);
+    text-align: right;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 800px;
+    font-weight: 200;
+    border-radius: 8px;
+    box-sizing: border-box;
 }
 
 span.type {
-	float: left;
+    float: left;
 }
 
-address>span>em {
-	color: #CCC;
-	font-style: italic;
-	font-weight: 300;
-	font-size: 0.9em;
+address > span > em {
+    color: var(--secondary-text-color);
+    font-style: italic;
+    font-size: 0.9em;
 }
 
-address>a {
-	color: inherit;
-	text-decoration: none;
+address > a {
+    color: inherit;
+    text-decoration: none;
 }
 
-address>a:hover {
-	color: #AAA;
+address > a:hover {
+    color: var(--hover-color);
 }
 
 p#copyright {
-	margin: 48px 0 32px 0;
-	font-weight: 400;
-	font-size: 15px;
+    margin: 48px 0 32px 0;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--header-footer-text-color);
 }
 
 .seal {
-	text-align: center;
+    text-align: center;
 }
