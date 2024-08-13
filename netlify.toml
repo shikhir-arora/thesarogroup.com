@@ -1,13 +1,37 @@
 [[headers]]
 for = "/*"
 [headers.values]
-Access-Control-Allow-Origin = "*"
-Content-Security-Policy = "base-uri 'self'; default-src 'self'; script-src 'self' 'report-sample' https://use.typekit.net/fcg5qzu.js; style-src 'self' 'unsafe-inline' 'report-sample' https://use.typekit.net; img-src 'self' https://p.typekit.net; font-src 'self' https://use.typekit.net; connect-src 'self'; media-src 'self'; object-src 'none'; frame-src 'self'; worker-src 'none'; manifest-src 'self'; upgrade-insecure-requests; report-uri https://thesarogroup.report-uri.com/r/d/csp/enforce; report-to groupname"
-Expect-CT = "enforce, max-age=604800, report-uri=\"https://thesarogroup.report-uri.com/r/d/ct/reportOnly\""
+Content-Security-Policy = """
+      base-uri 'self';
+      default-src 'none';
+      script-src 'self' 'strict-dynamic';
+      style-src 'self' 'unsafe-inline' https://use.typekit.net;
+      img-src 'self' https://p.typekit.net;
+      font-src 'self' https://use.typekit.net;
+      connect-src 'self';
+      media-src 'self';
+      object-src 'none';
+      frame-src 'self';
+      worker-src 'none';
+      manifest-src 'self';
+      form-action 'self';
+      upgrade-insecure-requests;
+      report-uri https://thesarogroup.report-uri.com/r/d/csp/enforce;
+      report-to csp-endpoint;
+    """
+Expect-CT = "max-age=86400, enforce, report-uri=\"https://thesarogroup.report-uri.com/r/d/ct/enforce\""
 Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()"
 Referrer-Policy = "strict-origin-when-cross-origin"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 X-Content-Type-Options = "nosniff"
-X-Frame-Options = "SAMEORIGIN"
-X-XSS-Protection = "1; mode=block; report=https://thesarogroup.report-uri.com/r/d/xss/enforce"
-Vary = "Accept-Encoding"
+X-Frame-Options = "DENY"
+X-XSS-Protection = "0"
+Report-To = """
+      {
+        "group": "csp-endpoint",
+        "max_age": 10886400,
+        "endpoints": [
+          { "url": "https://thesarogroup.report-uri.com/r/d/csp/enforce" }
+        ]
+      }
+    """
